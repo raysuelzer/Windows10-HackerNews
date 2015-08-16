@@ -1,0 +1,31 @@
+{
+  "name": "react-winjs-hacker-news",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "externals": {
+    "firebase": "Firebase"
+  },
+  "dependencies": {
+    "firebase": "^2.2.9",
+    "jQuery": "^1.7.4",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "react": "^0.13.3",
+    "react-winjs": "^1.1.0",
+    "reactfire": "^0.5.0",
+    "rx": "^3.0.1",
+    "winjs": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.9.4"
+  }
+}

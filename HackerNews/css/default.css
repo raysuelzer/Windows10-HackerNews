@@ -1,0 +1,58 @@
+﻿#app  {
+    height: 100% !important;
+}
+
+.win-listview {
+    height: 900px;
+}
+ .win-gridlayout {
+     height: 1000px;
+ }
+ .win-container  {
+     height: auto !important;
+     width: auto !important;
+ }
+ 
+ .win-itemscontainer {
+    height: 900px;
+     width: auto !important;
+ }
+
+
+/* Template for the items in the ListViews in this sample */       
+.smallListIconTextItem
+{
+    width: 242px;
+    height: 70px;
+    padding: 5px;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+    .smallListIconTextItem img.smallListIconTextItem-Image 
+    {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        margin-right:20px;
+    }
+
+    .smallListIconTextItem .smallListIconTextItem-Detail
+    {
+        margin: 5px;
+    }
+
+   .listLayoutTopHeaderTemplateRoot {
+        font-size: larger;
+        margin-left: 16px;
+    }
+    
+/* CSS applied to the ListViews in this sample */
+.listView
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
